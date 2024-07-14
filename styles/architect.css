@@ -147,6 +147,32 @@ main{
     font-size: 1.25rem;
 }
 /* fact style end */
+  /* sponsor sectin style  */
+  .logos{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 40px;
+  } 
+   footer{
+       max-width: 1440px;
+       height: 100px;
+       background: rgba(255, 144, 14, 0.1);
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 100px;
+
+    }
+   footer p{
+       color: rgb(66, 66, 66);
+       font-size: 20px;
+       font-weight: 400;
+       
+
+   }
 
 /* responsive design */
 
@@ -184,7 +210,37 @@ main{
     .team-text-container{
         padding: 20px;
     }
-    
+    .facts-container{
+    margin: 18px;
+    }
+    .fact-card-container{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 10px;
+       
+    }
+ 
+.card{
+    padding:20px ;
+  }
+  .card-state{
+      padding: 5px;
+      font-size: 2rem;
+  }
+  .card-title{
+      font-weight: 500;
+      font-size: 1rem;
+  }
+  
+  .logos{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .sponsor-section,footer{
+    margin: 20px;
+    text-align: center;
+  }
 }
 
 /* medium device or tablet  */
@@ -217,4 +273,26 @@ main{
     .team-text-container{
         padding: 20px;
     }
+
+    .facts-container{
+        margin: 25px;
+        }
+        .fact-card-container{
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+           gap: 15px;
+           
+        }
+         
+        .logos{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+          }
+          .sponsor-section,footer{
+            margin: 20px;
+            text-align: center;
+          }
+  
+   
 } 

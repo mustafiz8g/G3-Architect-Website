@@ -16,6 +16,13 @@
     border: none;
 
 }  
+   .gray-color{
+    color:  rgb(114, 114, 114);
+}
+.section-title{
+    color: rgb(19, 19, 19);
+    font-size: 2.6rem 
+}
  /* header style start  */
  header{
     background: rgba(255, 144, 14, 0.1);
@@ -41,12 +48,11 @@ nav a{
     font-size: 18px;
     font-weight: 500;
 }
-.nav-title{
-    color: rgb(19, 19, 19);
-    font-size: 2.6rem
-    
-}
-
+ /* main{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center; 
+ } */
  /* banner style  */
  .banner{
     text-align: center;
@@ -75,7 +81,10 @@ nav a{
     margin-bottom: 35px;
 
 }
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* team section style start  */
 
   .team-container{
@@ -103,6 +112,42 @@ nav a{
 /* team section style end  */
 
 
+
+
+
+
+
+/* fact style start  */
+  .facts-container{
+   
+  }
+.fact-card-container{ 
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    
+}
+.card{
+  border-radius:8px ;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding:50px ;
+}
+.card-state{
+    padding: 8px;
+    font-size: 2.8rem;
+    font-weight: ;
+    color: #424242;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+/* fact style end */
+
 /* responsive design */
 
 /* mobile device  */
@@ -116,11 +161,11 @@ nav a{
     nav ul{
         margin-top: 20px;
     }
-    .nav-title{
+    .section-title{
         font-size:1.8rem ;
     }
     .banner-content{
-        padding: 15px;
+        padding: 20px;
     }
     .banner-title{
         font-size: 2.3rem;
@@ -131,13 +176,13 @@ nav a{
         /* margin: 20px; */
     }
     .team-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .img-container{
         grid-template-columns: repeat(1,1fr);
     }
     .team-text-container{
-        padding: 15px;
+        padding: 20px;
     }
     
 }
@@ -152,7 +197,7 @@ nav a{
     nav ul{
         margin-top: 20px;
     }
-    .nav-title{
+    .section-title{
         font-size:2.2rem ;
     }
     .banner-content{
@@ -167,7 +212,7 @@ nav a{
        /* margin: 20px; */
     }
     .team-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .team-text-container{
         padding: 20px;
